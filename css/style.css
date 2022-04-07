@@ -1,0 +1,59 @@
+body {
+  background-color: rgb(34, 233, 255);
+}
+
+
+.box1 {
+  background-color: rgb(255, 255, 255);
+  border: solid 2px rgb(122, 93, 110);
+  margin: auto;
+  width: 35%;
+  border-radius: 10px;
+  padding: 12px;
+}
+.center {
+  text-align: center;
+}
+
+.textlines {
+  width: 95%;
+  /* 横幅 */
+  height: 100px;
+  /* 高さ */
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.textlines2 {
+  width: 95%;
+}
+
+.textlines3 {
+  width: 50px;
+}
+
+.textlines4 {
+  width: 95%;
+  height: 30px;
+}
+
+.check_lb {
+  display: block;
+}
+
+.border1 {
+   border-radius: 4px;
+  /* 角を丸くする */
+}
+
+.border2{
+  border: solid 2px rgb(red);
+  background-color: red;
+  border-radius: 4px;
+  /* 角を丸くする */
+  margin-left: 10px;
+}
+
+.right {
+  display:flex;
+}

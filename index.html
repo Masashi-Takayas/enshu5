@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axizアンケート</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="center">アンケート</div>
+    <hr color="blue">
+    <div class="box1">
+        <p>Axizの研修をご利用いただき、誠にありがとうございます。
+            <br>以下の内容の記入及び送信して頂けると幸いです。
+        </p>
+
+
+        <p>
+        <div class="right">
+            <label class="check_lb" for="name">会社名</label>
+            <div class="border2"><font color="white">必須</font></div>
+        </div>
+        <input class="border1 textlines2" type="text" id="name" name="name" placeholder="例)株式会社テクノコア">
+        </p>
+        <p>
+        <div class="right">
+            <label class="check_lb" for="name">お名前</label>
+            <div class="border2"><font color="white">必須</font></div>
+        </div>
+        <input class="border1 textlines2" type="text" id="name" name="name" placeholder="例)手久野　興亜">
+        </p>
+        <p>
+            <label class="check_lb" for="name">メールアドレス</label>
+        <input class="border1 textlines2" type="text" id="name" name="name" placeholder="例)exmple@axiz.co.jp">
+        </p>
+        <p>
+            <label class="check_lb" for="name" input type="text" value="22">年齢</label>
+            <input class="border1 textlines3" type="text" id="name" name="name" value="23">
+        </p>
+
+        <label class="check_lb">受講コース</label>
+        <label>
+            <input type="radio" name="java" value="java" checked>Java
+        </label>
+        <label>
+            <input type="radio" name="infura" value="infura">インフラ
+        </label>
+        <div class="form-group">
+            <p><label class="check_lb" for="age">会場</label>
+                <select class="border1 textlines4" id="age" name="age">
+                    <option value="0">選択してください</option>
+                    <option value="10" selected>日本橋A教室</option>
+                    <option value="20">日本橋B教室</option>
+                    <option value="30">日本橋C教室</option>
+
+                </select>
+            </p>
+        </div>
+
+        <div class="form-group">
+            <label class="check_lb">詳しく学びたい内容(複数回答可)</label>
+
+            <label class="check_lb">
+                <input type="checkbox" name="hobby" value="busyness">ビジネスマナー
+            </label>
+            <label class="check_lb">
+                <input type="checkbox" name="hobby" value="HTML/CSS">HTML/CSS
+            </label>
+            <label class="check_lb">
+                <input type="checkbox" name="hobby" value="JavaScript">JavaScript
+            </label>
+            <label class="check_lb">
+                <input type="checkbox" name="hobby" value="Java">Java
+            </label>
+            <label class="check_lb">
+                <input type="checkbox" name="hobby" value="database">データベース
+            </label>
+            <label class="check_lb">
+                <input type="checkbox" name="hobby" value="Linux">Linux
+            </label>
+        </div>
+        <p></p>
+        <div class="form-group">
+            <label class="check_lb" for="message">ご意見</label>
+            <textarea class="textlines border1" id="message" name="message">自由にご記入ください。</textarea>
+        </div>
+        <button class="border1" type="submit">送信する</button>
+    </div>
+    <hr color="blue">
+    <div class="center">Copyright(C)Axiz</div>
+</body>
+
+</html>
